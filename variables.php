@@ -31,6 +31,6 @@
 
     //variables de tipo objeto
     $frutas = (object)["fruta1"=>"pera","fruta2"=>"manzana"];
-    //echo"Esto es un array de objetos: $frutas[fruta1]<br>";
+    echo"Esto es un array de objetos: $frutas->fruta1<br>";
     var_dump($frutas);
 ?>
