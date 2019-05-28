@@ -49,7 +49,7 @@
 </head>
 <body>
 <header>
-<h1> BIENVENIDOS </h1>
+<h1> CRUD MAESTROS Y ALUMNOS</h1>
 </header>
 <?php
 include "modules/navegacion.php";
@@ -61,7 +61,4 @@ $mvc= new MvcController();
 $mvc->enlacesPaginasController();
 ?>
 </section>
-
-
-</body>
 </html>
